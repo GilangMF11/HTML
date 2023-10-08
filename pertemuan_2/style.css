@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+}
+
+p{
+    text-decoration: line-through;
+}
+
+.j1 {
+    color: red;
+}
+.j2{
+    color:yellow
+}
+.j3{
+    color: green;
+}
+.j4{
+    color: blue;
+}
+.p1{
+    color: red;
+}
+.p2{
+    color: yellow;
+}
+label{
+    color: brown;
+}
