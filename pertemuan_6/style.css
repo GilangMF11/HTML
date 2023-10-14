@@ -11,7 +11,7 @@ body {
 
 
 .header a:hover {
-    background-color: blue;
+    background-color: brown;
     color: white;
 }
 .header ul li {
@@ -95,4 +95,11 @@ body {
     background-image: url('img/contact.jpg');
     background-size: cover;
     background-position: 40px -570px;
+}
+
+.hero-about{
+    height: 300px;
+    background-image: url('img/about.jpg');
+    background-size: cover;
+    background-position: 200px;
 }
