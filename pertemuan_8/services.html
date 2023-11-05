@@ -8,6 +8,141 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!--Conatiner-->
+    <div class="container">
+        <!--Header-->
+        <div class="header" style="text-align: center;" >
+            <ul>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="about.html" id="about">About</a></li>
+                <li><a href="product.html" id="product">Product</a></li>
+                <li><a href="services.html" id="service">Service</a></li>
+                <li><a href="contact.html" id="contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--/.Header-->
+
+        
+        <!--Hero Page-->
+        <div class="hero-service"></div>
+        <!--/.Hero Page-->
+
+        <!--Judul-->
+        <h1 class="title-service">Service</h1>
+        <!--/.Judul-->
+
+        <!--Content-->
+        <div class="content">
+            <h2 id="title">Berikut Layanan Kami</h2>
+            <p id="subtitle">Kami Sudah 10 Tahun Melayani Konsumen dengan Prefesional</p>
+
+
+        <!--Card Content-->
+        <div class="card-content">
+            <div class="card">
+                <img src="img/product.jpg" alt="Card 1">
+                <h3>Judul Card 1</h3>
+                <p>Deskripsi Card 1</p>
+            </div>
+            <div class="card">
+                <img src="img/product.jpg" alt="Card 2">
+                <h3>Judul Card 2</h3>
+                <p>Deskripsi Card 2</p>
+            </div>
+            <div class="card">
+                <img src="img/product.jpg" alt="Card 3">
+                <h3>Judul Card 3</h3>
+                <p>Deskripsi Card 3</p>
+            </div>
+            <div class="card">
+                <img src="img/product.jpg" alt="Card 4">
+                <h3>Judul Card 4</h3>
+                <p>Deskripsi Card 4</p>
+            </div>
+            <div class="card">
+                <img src="img/product.jpg" alt="Card 5">
+                <h3>Judul Card 5</h3>
+                <p>Deskripsi Card 5</p>
+            </div>
+            <div class="card">
+                <img src="img/product.jpg" alt="Card 6">
+                <h3>Judul Card 6</h3>
+                <p>Deskripsi Card 6</p>
+            </div>
+        </div>
+        <!--/.Card Content-->
+    </div>
+    <!--/.Content-->
+        <!--Footer-->
+        <div class="footer">
+            Copyright 2023 by Gilang
+        </div>
+        <!--/.Footer-->
+
+    </div>
+    <!--/.Conatiner-->
 </body>
 </html>
+
+<style>
+.hero-service {
+    height: 300px;
+    background-image: url('img/service.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.title-service {
+    color: white;
+    margin-top: -190px;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 2px 12px black;
+}
+.content {
+    background-color: rgb(223, 229, 238);
+}
+#title {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+#subtitle {
+    text-align: center;
+    margin-top: -10px;
+}
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color:  rgb(223, 229, 238);
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.card p {
+    padding: 0 10px 20px;
+    font-size: 14px;
+}
+</style>
