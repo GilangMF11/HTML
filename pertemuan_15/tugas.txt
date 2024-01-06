@@ -1,0 +1,5 @@
+1. Buatlah class yaitu Kendaraa dengan ketentuan sbb
+    a. Memiliki Poperties Merk, Roda, Harga, Warna, Torsi
+    b. Buatlah Fungsi/methode untuk set dan get
+    c. Buatlah Object dari Class tersebut dengan berbeda file
+    d. Tampilkan Hasilnya 

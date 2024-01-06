@@ -1,0 +1,8 @@
+Soal
+1. Buatlah Nama Barang berserta Detail barang
+contoh 
+Nama Barang yaitu Laptop, Kamera dan Smartphone
+setiap barang terdapat detail barang terdapat harga, merk, sama diskon
+tampilkan harga dan merk saja
+
+2. Buatlah Class dan Object sesuai dengan kaidah  

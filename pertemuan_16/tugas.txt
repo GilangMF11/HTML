@@ -1,0 +1,11 @@
+Buatlah class Animal (parent class)
+kaki
+jenis
+
+dan buat cild class
+1. Kucing
+2. Ayam
+3. Kambing
+4. Sapi
+
+kemudian tampilkan suara suara sesuai nama binatangnya
